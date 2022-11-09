@@ -10,7 +10,7 @@ export class Prize{
 
   public constructor(id?: number, organization?:string, name?: string, description?: string, performerPrizes?:Array<PerformerPrizes>){
     this.id = id;
-    this.organization =this.organization
+    this.organization =organization
     this.name = name;
     this.description = description;
     this.performerPrizes=performerPrizes;
