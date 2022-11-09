@@ -44,7 +44,7 @@ export class AddAlbumToPerformerComponent implements OnInit {
   addAlbum(newAlbum: any) {
 
 
-    var album = this.todosAlbumes.find(item=> item.name == newAlbum.name);
+    let album = this.todosAlbumes.find(item=> item.name == newAlbum.name);
     if(album == undefined){
       this.showAlbumNOtexist(newAlbum);
     }
