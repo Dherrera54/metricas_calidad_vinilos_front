@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
   }
 
   showItem(index: number): void {
-    this.headers.map( x => {
+    this.headers.forEach( x => {
       x.index === index ?  x.enabled = true : x.enabled = false;
     });
 
