@@ -8,6 +8,7 @@ const routes: any = [
   { path: Routes.ERROR_INTERNET, component: InternetComponent },
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
