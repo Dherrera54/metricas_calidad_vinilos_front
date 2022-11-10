@@ -39,7 +39,7 @@ export class AddToFavoriteComponent implements OnInit {
 
   fillForm(collector: Collector) {
 
-    var collect = this.collectors.find(item=> item.name == collector.name);
+    let collect = this.collectors.find(item=> item.name == collector.name);
     this.collectorId = collect.id;
 
 
