@@ -37,7 +37,7 @@ export class AddToFavoriteBandComponent implements OnInit {
     this.collectorService.getCollectors()
     .subscribe(collectors => {
       this.collectors = collectors;})
-    //this.addToFavorite();
+
   }
 
   fillForm(collector: Collector) {
